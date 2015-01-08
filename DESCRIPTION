@@ -1,0 +1,10 @@
+Package: topten
+Type: Package
+Title: Building a predicition model from Top 10 features
+Version: 1.0
+Date: 2014-11-24
+Author: Piergiorgio Palla
+Maintainer: Piergiorgio Palla <piergiorgio.palla@diee.unica.it>
+Description: Functions from building and predictiong from models from selecting
+    the Top 10 features
+License: GPL-3
