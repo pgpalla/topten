@@ -19,7 +19,7 @@ topten <- function(x, y){
   
   p <- ncol(x)
   if (p < 10)
-    stop("There a re less than 10 features")
+    stop("There are less than 10 features")
   pvalues <- numeric(p)
   for (i in seq_len(p)){
     fit <- lm(y ~ x[,i])
